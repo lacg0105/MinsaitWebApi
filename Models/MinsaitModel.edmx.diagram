@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c7137938e242411e88f8140685278093" Name="Diagram1">
+        <EntityTypeShape EntityType="MinsaitModel.Clientes" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinsaitModel.CatMercado" Width="1.5" PointX="0.75" PointY="7.5" />
+        <EntityTypeShape EntityType="MinsaitModel.CatPais" Width="1.5" PointX="0.75" PointY="5.125" />
+        <AssociationConnector Association="MinsaitModel.FK_Clientes_CatMercado" />
+        <AssociationConnector Association="MinsaitModel.FK_Clientes_CatPais" />
+        <EntityTypeShape EntityType="MinsaitModel.ContactosCliente" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="MinsaitModel.FK_ContactosCliente_Clientes" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
